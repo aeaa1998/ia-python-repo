@@ -83,7 +83,7 @@ def build_json_person(index, name, person_movement_index):
 
 
 person_movement_index = 0
-for i in range(0, 512):
+for i in range(5, 512):
     # We are going to capture each half a second some information
     if i % 1 == 0:
         with open("frames/pp/frame" + str(i) + ".jpg", 'rb') as source_image:
